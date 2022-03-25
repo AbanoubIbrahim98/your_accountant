@@ -45,7 +45,7 @@ class _RegistrationState extends State<Registration> {
                   height: 10.0,
                 ),
                 Text(
-                  'Create an account to Q Allure to get all features',
+                  'Create an account to get all features',
                   style: TextStyle(
                     color: Colors.grey,
                   ),
@@ -93,8 +93,7 @@ class _RegistrationState extends State<Registration> {
                   height: 30.0,
                 ),
                 MaterialButton(
-                  onPressed: () {
-                  },
+                  onPressed: () {},
                   height: 50.0,
                   minWidth: 170.0,
                   child: Text('Create',
@@ -119,7 +118,7 @@ class _RegistrationState extends State<Registration> {
                     ),
                     TextButton(
                       onPressed: () {
-                             Navigator.pop(context);
+                        Navigator.pop(context);
                       },
                       child: Text('Login here'),
                     ),
